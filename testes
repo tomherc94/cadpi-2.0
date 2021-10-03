@@ -1,0 +1,47 @@
+TESTE 1
+Master (CPU: 2 / RAM: 1024 kb)
+Workers (CPU: 1 / RAM: 1024 kb)
+Quantidade de workers:  3
+Quantidade de imagens:  30
+Tempo de execução:  31.652389064s
+
+TESTE 2
+Master (CPU: 2 / RAM: 1024 kb)
+Workers (CPU: 1 / RAM: 1024 kb)
+Quantidade de workers:  5
+Quantidade de imagens:  30
+Tempo de execução:  27.756373792s
+
+TESTE 3
+Master (CPU: 2 / RAM: 1024 kb)
+Workers (CPU: 1 / RAM: 1024 kb)
+Quantidade de workers:  7
+Quantidade de imagens:  30
+Tempo de execução:  33.690899827s
+
+UPGRADE DO MASTER
+
+TESTE 4
+Master (CPU: 4 / RAM: 2048 kb)
+Workers (CPU: 1 / RAM: 1024 kb)
+Quantidade de workers:  7
+Quantidade de imagens:  30
+Tempo de execução:  26.890722124s
+
+TESTE 5
+Master (CPU: 4 / RAM: 2048 kb)
+Workers (CPU: 1 / RAM: 1024 kb)
+Quantidade de workers:  9
+Quantidade de imagens:  30
+Tempo de execução:  49.59055215s
+
+UPGRADE DO MASTER
+
+TESTE 6
+Master (CPU: 6 / RAM: 4096 kb)
+Workers (CPU: 1 / RAM: 1024 kb)
+Quantidade de workers:  9
+Quantidade de imagens:  30
+Tempo de execução:  29.387522883s
+
+Conclusão: Com o aumento da quantidade de workers também se aumenta o processamento do master (mais goroutines), criando assim um gargalo na performance do Cluster.
